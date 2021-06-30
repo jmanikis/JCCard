@@ -15,6 +15,8 @@
 		699F3637267D080200D354CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 699F3635267D080200D354CC /* LaunchScreen.storyboard */; };
 		699F3642267D080200D354CC /* JCCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F3641267D080200D354CC /* JCCardTests.swift */; };
 		699F364D267D080200D354CC /* JCCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F364C267D080200D354CC /* JCCardUITests.swift */; };
+		699F365C267D082A00D354CC /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 699F365B267D082A00D354CC /* Pacifico-Regular.ttf */; };
+		69C190D7267D1C11007EB172 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C190D6267D1C11007EB172 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		699F3648267D080200D354CC /* JCCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		699F364C267D080200D354CC /* JCCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCCardUITests.swift; sourceTree = "<group>"; };
 		699F364E267D080200D354CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		699F365B267D082A00D354CC /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		69C190D6267D1C11007EB172 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +103,11 @@
 		699F3629267D080100D354CC /* JCCard */ = {
 			isa = PBXGroup;
 			children = (
+				699F365A267D081900D354CC /* Fonts */,
 				699F362A267D080100D354CC /* AppDelegate.swift */,
 				699F362C267D080100D354CC /* SceneDelegate.swift */,
 				699F362E267D080100D354CC /* ContentView.swift */,
+				69C190D6267D1C11007EB172 /* InfoView.swift */,
 				699F3630267D080200D354CC /* Assets.xcassets */,
 				699F3635267D080200D354CC /* LaunchScreen.storyboard */,
 				699F3638267D080200D354CC /* Info.plist */,
@@ -134,6 +140,14 @@
 				699F364E267D080200D354CC /* Info.plist */,
 			);
 			path = JCCardUITests;
+			sourceTree = "<group>";
+		};
+		699F365A267D081900D354CC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				699F365B267D082A00D354CC /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				699F3637267D080200D354CC /* LaunchScreen.storyboard in Resources */,
+				699F365C267D082A00D354CC /* Pacifico-Regular.ttf in Resources */,
 				699F3634267D080200D354CC /* Preview Assets.xcassets in Resources */,
 				699F3631267D080200D354CC /* Assets.xcassets in Resources */,
 			);
@@ -266,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69C190D7267D1C11007EB172 /* InfoView.swift in Sources */,
 				699F362B267D080100D354CC /* AppDelegate.swift in Sources */,
 				699F362D267D080100D354CC /* SceneDelegate.swift in Sources */,
 				699F362F267D080100D354CC /* ContentView.swift in Sources */,
